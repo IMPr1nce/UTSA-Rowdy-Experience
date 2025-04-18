@@ -49,7 +49,7 @@ RowdyExperience is an Android application built with Kotlin and Java as part of 
 2. Open the project in Android Studio.
 3. Let Gradle sync and build the project.
 4. Run the app on an emulator or connected Android device.
-
+   
 ## Contributing
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests for new features or bug fixes.
