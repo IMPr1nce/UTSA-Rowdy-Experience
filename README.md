@@ -1,1 +1,1 @@
-# UTSA-Rowdy-Experience
+# UTSA Rowdy Experience
