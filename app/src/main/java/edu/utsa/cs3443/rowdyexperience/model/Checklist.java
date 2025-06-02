@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 
 package edu.utsa.cs3443.rowdyexperience.model;
 
 import android.content.Context;
+=======
+package edu.utsa.cs3443.rowdyexperience.model;
+
+import android.content.Context;
+
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -9,23 +16,31 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+<<<<<<< HEAD
 /**
  * Represents a checklist used in the Rowdy Experience application.
  * This class manages a list of questions and calculates the completion percentage.
  */
 
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 public class Checklist {
     private int percentage;
     private ArrayList<Questions> questions;
 
+<<<<<<< HEAD
     /**
      * Constructs an empty checklist with a default completion percentage of 0.
      */
+=======
+
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     public Checklist() {
         questions = new ArrayList<>();
         this.percentage = 0;
     }
 
+<<<<<<< HEAD
     /**
      * Reads a checklist from a file at the specified filepath.
      * The file should contain lines in the format:
@@ -43,6 +58,8 @@ public class Checklist {
      * @return a Checklist object populated with questions from the file
      * @throws RuntimeException if an error occurs while reading the file
      */
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     public static Checklist readChecklist(Context context, String filepath) {
         Checklist temp = new Checklist();
 
@@ -79,6 +96,7 @@ public class Checklist {
         return temp;
     }
 
+<<<<<<< HEAD
     /**
      * Adds a question to the checklist.
      *
@@ -93,28 +111,41 @@ public class Checklist {
      *
      * @return the completion percentage as an integer
      */
+=======
+
+    public void addQuestion(Questions q){
+        questions.add(q);
+    }
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     public int getPercentage() {
         return percentage;
     }
 
+<<<<<<< HEAD
     /**
      * Sets the completion percentage of the checklist.
      *
      * @param percentage the new completion percentage
      */
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     public void setPercentage(int percentage) {
         this.percentage = percentage;
     }
 
+<<<<<<< HEAD
     /**
      * Returns the list of questions in the checklist.
      *
      * @return an ArrayList of Questions
      */
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     public ArrayList<Questions> getQuestions() {
         return questions;
     }
 
+<<<<<<< HEAD
     /**
      * Sets the list of questions in the checklist.
      *
@@ -128,6 +159,11 @@ public class Checklist {
      * Calculates the completion percentage based on the number of checked questions.
      * If no questions are present, the percentage is set to 0.
      */
+=======
+    public void setQuestions(ArrayList<Questions> questions) {
+        this.questions = questions;
+    }
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     public void calculatePercentage() {
         if (questions == null || questions.isEmpty()) {
             this.percentage = 0;
@@ -145,6 +181,7 @@ public class Checklist {
         this.percentage = (int) ((checkedCount / (double) questions.size()) * 100);
     }
 
+<<<<<<< HEAD
     /**
      * Converts the current checklist completion percentage to a badge tier.
      *
@@ -167,3 +204,22 @@ public class Checklist {
         }
     }
 }
+=======
+    public int percentageToTier(){
+        int percent = this.percentage;
+        if(percent == 100){
+            return 4;
+        }
+        else if (percent <=50){
+            return 3;
+        }
+        else if (percent <=70){
+            return 2;
+        }
+        else{
+            return 1;
+        }
+    }
+
+}
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7

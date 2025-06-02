@@ -1,8 +1,11 @@
 package edu.utsa.cs3443.rowdyexperience;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.content.res.ColorStateList;
 import android.graphics.Color;
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -48,6 +51,7 @@ public class ChecklistActivity extends AppCompatActivity {
         TextView title = findViewById(R.id.title);
         title.setText(version);
 
+<<<<<<< HEAD
         ColorStateList blueTint = ColorStateList.valueOf(Color.parseColor("#002D72"));
 
         for (int id : checkBoxIds) {
@@ -56,6 +60,8 @@ public class ChecklistActivity extends AppCompatActivity {
         }
 
 
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         setCheckboxes();
 
         Button save_exitButton = findViewById(R.id.save_exitButton);

@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
     android:padding="0dp"
     android:background="@android:color/white"
 
@@ -18,10 +19,33 @@
         android:layout_gravity="center"
         android:contentDescription="@string/utsa_image"
         android:src="@drawable/utsa" />
+=======
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RowdyExperience"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
     <TextView
         android:id="@+id/app_description"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="61dp"
         android:layout_marginTop="0dp"
         android:fontFamily="casual"
@@ -30,18 +54,30 @@
         android:textColor="#000035"
         android:textSize="21sp"
         android:textStyle="bold" />
+=======
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Partake in the Ultimate UTSA experience"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp" />
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:layout_marginTop="60dp"
         android:gravity="center"
+=======
+        android:layout_marginTop="24dp"
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         android:orientation="horizontal">
 
         <TextView
             android:id="@+id/username_txt"
+<<<<<<< HEAD
             android:layout_width="4dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -51,26 +87,40 @@
             android:textSize="20sp"
 
             android:textStyle="bold" />
+=======
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Username" />
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <EditText
             android:id="@+id/username"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+<<<<<<< HEAD
             android:fontFamily="casual"
             android:hint="Username"
             android:inputType="text"
             android:textSize="15sp"
 
             android:textStyle="bold" />
+=======
+            android:hint="username"
+            android:inputType="text" />
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+<<<<<<< HEAD
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         android:orientation="horizontal">
 
         <TextView
@@ -78,28 +128,37 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+<<<<<<< HEAD
             android:textColor="#000035"
             android:fontFamily="casual"
             android:textStyle="bold"
             android:textSize="20sp"
 
             android:text="Password:" />
+=======
+            android:text="Password" />
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <EditText
             android:id="@+id/password"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
+<<<<<<< HEAD
             android:hint="Password"
             android:textStyle="bold"
             android:fontFamily="casual"
             android:textSize="15sp"
 
+=======
+            android:hint="password"
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
             android:inputType="textPassword" />
     </LinearLayout>
 
     <Button
         android:id="@+id/login_button"
+<<<<<<< HEAD
         android:layout_width="101dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -111,19 +170,33 @@
         android:textStyle="bold"
         android:layout_marginBottom="-40dp"
 
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Login"
+        android:layout_gravity="center"
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         tools:ignore="HardcodedText" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:layout_marginTop="340dp"
         android:gravity="center"
         android:orientation="horizontal">
+=======
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <TextView
             android:id="@+id/new_user"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_marginEnd="8dp"
             android:fontFamily="casual"
 
@@ -132,16 +205,25 @@
             android:textSize="20sp"
             android:textStyle="bold"
             tools:ignore="HardcodedText" />
+=======
+            android:text="New user?"
+            tools:ignore="HardcodedText"
+            android:layout_marginEnd="8dp" />
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <Button
             android:id="@+id/create_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:backgroundTint="#002D72"
             android:fontFamily="casual"
             android:text="Create Account"
             android:textSize="20sp"
             android:textStyle="bold"
+=======
+            android:text="Create Account"
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
             tools:ignore="HardcodedText" />
     </LinearLayout>
 

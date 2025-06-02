@@ -8,7 +8,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+<<<<<<< HEAD
 import android.widget.ImageButton;
+=======
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -54,7 +57,11 @@ public class DashboardActivity extends AppCompatActivity {
 
 
         // food button
+<<<<<<< HEAD
         ImageButton food_button = findViewById(R.id.foodButton);
+=======
+        Button food_button = findViewById(R.id.foodButton);
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         food_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,7 +69,11 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
         ImageButton nightlife_Button = findViewById(R.id.nightlifeButton);
+=======
+        Button nightlife_Button = findViewById(R.id.nightlifeButton);
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         nightlife_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -70,7 +81,11 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
         ImageButton sports_Button = findViewById(R.id.sportsButton);
+=======
+        Button sports_Button = findViewById(R.id.sportsButton);
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         sports_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -78,7 +93,11 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
         ImageButton buildings_Button = findViewById(R.id.buildingsButton);
+=======
+        Button buildings_Button = findViewById(R.id.buildingsButton);
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         buildings_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,7 +105,11 @@ public class DashboardActivity extends AppCompatActivity {
             }
         });
 
+<<<<<<< HEAD
         ImageButton activities_Button = findViewById(R.id.activitiesButton);
+=======
+        Button activities_Button = findViewById(R.id.activitiesButton);
+>>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
         activities_Button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
