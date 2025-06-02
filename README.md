@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Rowdy Experience (RowdyXP)
 
 Rowdy Experience (RowdyXP) is an engaging mobile application designed exclusively for UTSA students. Its purpose is to enhance school pride and community spirit by providing a checklist of activities and challenges to complete, rewarding users with badges as they explore various aspects of campus life. Through gamification, RowdyXP encourages students to discover new places, participate in events, and connect with the UTSA community.
