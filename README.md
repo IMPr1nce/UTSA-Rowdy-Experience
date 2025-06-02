@@ -108,7 +108,3 @@ RowdyExperience is an Android application built with Kotlin and Java as part of 
 
 Contributions are welcome! Feel free to fork the repository and submit pull requests for new features or bug fixes.
 
-## License
-
-This project is licensed under the MIT License.
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
