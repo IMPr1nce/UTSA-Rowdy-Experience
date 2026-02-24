@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -145,7 +144,6 @@
     </LinearLayout>
 
 </FrameLayout>
-=======
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -245,4 +243,3 @@
         android:textStyle="bold" />
 
 </LinearLayout>
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7

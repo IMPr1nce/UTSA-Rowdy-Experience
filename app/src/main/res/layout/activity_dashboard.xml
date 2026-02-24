@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-<<<<<<< HEAD
-=======
     xmlns:app="http://schemas.android.com/apk/res-auto"
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-<<<<<<< HEAD
     android:gravity="center_horizontal"
     android:padding="0dp"
     android:background="#FFFFFF"
@@ -33,7 +29,6 @@
             android:orientation="vertical"
             android:gravity="center"
             android:padding="16dp">
-=======
     android:padding="18dp"
     android:background="#FFFFFF"
     android:gravity="center_horizontal">
@@ -59,24 +54,20 @@
             android:layout_weight="1"
             android:orientation="vertical"
             android:gravity="center_vertical">
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
             <TextView
                 android:id="@+id/username_dash"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="USERNAME"
-<<<<<<< HEAD
                 android:textSize="30sp"
                 android:fontFamily="casual"
                 android:textStyle="bold"
                 android:layout_marginLeft="70dp"
                 android:textColor="#FFFFFF"
-=======
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#333333"
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
                 android:layout_marginBottom="4dp" />
 
             <TextView
@@ -84,17 +75,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="First Last"
-<<<<<<< HEAD
                 android:fontFamily="casual"
                 android:textStyle="bold"
                 android:textSize="25sp"
                 android:layout_marginLeft="70dp"
 
                 android:textColor="#EEEEEE"
-=======
                 android:textSize="18sp"
                 android:textColor="#555555"
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
                 android:layout_marginBottom="4dp" />
 
             <TextView
@@ -102,19 +90,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Class of 2027"
-<<<<<<< HEAD
                 android:layout_marginLeft="70dp"
                 android:fontFamily="casual"
                 android:textSize="18sp"
                 android:textColor="#CCCCCC" />
         </LinearLayout>
     </FrameLayout>
-=======
                 android:textSize="16sp"
                 android:textColor="#777777" />
         </LinearLayout>
     </LinearLayout>
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
     <!-- Food Section -->
     <LinearLayout
@@ -124,7 +109,6 @@
         android:orientation="horizontal"
         android:padding="8dp">
 
-<<<<<<< HEAD
         <ImageButton
             android:id="@+id/foodButton"
             android:layout_width="202dp"
@@ -134,14 +118,12 @@
             android:text="" />
 
 
-=======
         <Button
             android:id="@+id/foodButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Food" />
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <ImageView
             android:id="@+id/foodbadge"
@@ -160,7 +142,6 @@
         android:orientation="horizontal"
         android:padding="8dp">
 
-<<<<<<< HEAD
         <ImageButton
             android:id="@+id/nightlifeButton"
             android:layout_width="202dp"
@@ -168,14 +149,12 @@
             android:background="@drawable/nightlife"
             android:padding="0dp"
             android:text="" />
-=======
         <Button
             android:id="@+id/nightlifeButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Night Life" />
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <ImageView
             android:id="@+id/nightlifebadge"
@@ -194,7 +173,6 @@
         android:orientation="horizontal"
         android:padding="8dp">
 
-<<<<<<< HEAD
         <ImageButton
             android:id="@+id/sportsButton"
             android:layout_width="202dp"
@@ -202,14 +180,12 @@
             android:background="@drawable/sports"
             android:padding="0dp"
             android:text="" />
-=======
         <Button
             android:id="@+id/sportsButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Sports" />
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <ImageView
             android:id="@+id/sportsbadge"
@@ -228,7 +204,6 @@
         android:orientation="horizontal"
         android:padding="8dp">
 
-<<<<<<< HEAD
         <ImageButton
             android:id="@+id/buildingsButton"
             android:layout_width="202dp"
@@ -236,14 +211,12 @@
             android:background="@drawable/buildings"
             android:padding="0dp"
             android:text="" />
-=======
         <Button
             android:id="@+id/buildingsButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Buildings" />
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <ImageView
             android:id="@+id/buildingsbadge"
@@ -262,7 +235,6 @@
         android:orientation="horizontal"
         android:padding="8dp">
 
-<<<<<<< HEAD
         <ImageButton
             android:id="@+id/activitiesButton"
             android:layout_width="202dp"
@@ -270,14 +242,12 @@
             android:background="@drawable/activities"
             android:padding="0dp"
             android:text="" />
-=======
         <Button
             android:id="@+id/activitiesButton"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="Activities" />
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
 
         <ImageView
             android:id="@+id/activitiesbadge"
