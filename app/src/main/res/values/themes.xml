@@ -1,19 +1,13 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.Rowdyexperience" parent="Theme.Material3.DayNight.NoActionBar">
-<<<<<<< HEAD
-
         <item name="colorControlActivated">#002D72</item>
 
     </style>
 
     <!-- themes.xml -->
-
-=======
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
-
->>>>>>> 15312c2d50d55c11f89d629af8546c5e93fa43f7
     <style name="Theme.Rowdyexperience" parent="Base.Theme.Rowdyexperience" />
 </resources>
